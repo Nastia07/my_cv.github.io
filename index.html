@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main</title>
+  <!--style-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+
+  <!--font-->
+  <link rel="stylesheet" href="font/stylesheet.css">
+</head>
+
+<body>
+
+  <div id="to_top">
+    <span>&#8593;</span>
+  </div>
+  <header class="container">
+    <nav>
+      <ul class="header_list">
+        <li>
+          <a href="#about">about me</a>
+        </li>
+        <li>
+          <a href="#resume">resume</a>
+        </li>
+        <li>
+          <a href="#projects">projects</a>
+        </li>
+        <li>
+          <a href="#contacts">contacts</a>
+        </li>
+      </ul>
+      <div class="burger">
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="menu_overlay container">
+
+    <div class="menu_overlay__close">
+    </div>
+
+    <div class="menu_overlay__content">
+      <nav>
+        <ul class="menu_list">
+          <li>
+            <a href="#about">about me</a>
+          </li>
+          <li>
+            <a href="#resume">resume</a>
+          </li>
+          <li>
+            <a href="#projects">projects</a>
+          </li>
+          <li>
+            <a href="#contacts">contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+    <section id="about">
+      <div class="container about">
+        <div class="box about__box">
+          <div class="about__img">
+            <img src="img/03.jpg" alt="Women">
+          </div>
+          <div>
+            <h1>Anastasiia Chulupyn</h1>
+            <h2>About me</h2>
+            <p>I`m strong interpersonal skills.<br>
+              Deadline oriented, able to work under pressure, self-motivated.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume">
+      <div class="container resume">
+        <h2 class="center">Resume</h2>
+
+        <div class="resume__grid">
+          <div class="resume__item">
+            <h3>Education</h3>
+            <div class="box">
+              <div class="resume__conent">
+                <div class="resume__date">
+                  2018-2022
+                </div>
+                <div class="resume__info">
+                  <span>B. S. - Applied mathematics</span>
+                  <p>
+                    Taras Shevchenko national university of Kyiv | Faculty of Computer Science and Cybernetics
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__item">
+            <h3>Skills</h3>
+            <div class="box">
+              <div class="resume__conent">
+                <ul class="resume__list">
+                  <li>
+                    HTML/CSS
+                  </li>
+                  <li>
+                    JavaScript and Jquery
+                  </li>
+                  <li>
+                    Git
+                  </li>
+                  <li>
+                    WordPress, Umbraco
+                  </li>
+                  <li>
+                    Basic knowledge of C++, Python, Java
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__item">
+            <h3>Languages</h3>
+            <div class="box">
+              <div class="resume__conent">
+                <ul class="resume__list">
+                  <li>
+                    Ukrainian - Native
+                  </li>
+                  <li>
+                    Russian –Fluent
+                  </li>
+                  <li>
+                    English – Intermediate
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container projects">
+        <h2 class="center">Projects</h2>
+
+        <div class="box">
+          <div class="projects__item">
+            <div class="project__descr">
+              <a href="https://lovelygirl.store/">Lovely Girl</a>
+              <p>Online store for clothes</p>
+              <p>Responsibilities: HTML+CSS development, work with
+                DOM, stylize WooCommerce elements.
+                Used technologies: HTML5, CSS3, jQuery, JS</p>
+            </div>
+            <div class="project__img">
+              <img src="/img/01.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="projects__item">
+            <div class="project__descr">
+              <a href="https://www.lezometal.com/">LezoMetal</a>
+              <p>Corporate website for the metal processing
+                company</p>
+              <p>Responsibilities: HTML+CSS development, work with
+                DOM.
+                Used technologies: HTML5, CSS3, jQuery, JS, Swiper.js</p>
+            </div>
+            <div class="project__img">
+              <img src="/img/04.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="projects__item">
+            <div class="project__descr">
+              <a href="https://www.bip.net.ua/">BIP</a>
+              <p>Corporate website for the financial company</p>
+              <p>Responsibilities: HTML+CSS development, work with
+                DOM.
+                Used technologies: HTML5, CSS3, jQuery, JS, Slick slider</p>
+            </div>
+            <div class="project__img">
+              <img src="/img/05.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <div class="container contacts">
+        <h2 class="center">Contacts</h2>
+
+        <div class="contacts__wrap">
+          <div class="box contacts__form">
+            <form action="#" method="POST">
+              <span>Contact me</span>
+              <div class="input_group">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <input type=text placeholder="Anything else?">
+              </div>
+
+              <input type="submit" value="Submit" class="btn">
+            </form>
+          </div>
+
+          <div class="box contacts__info">
+            <span>My phone number</span>
+            <a href="tel:+380665063553">+380665063553</a>
+            <span>My E-mail</span>
+            <a href="mailto:nculupin@gmail.com">nculupin@gmail.com</a>
+            <span>or</span>
+            <a href="https://www.instagram.com/nastya_chulupyn/" class="icon">
+              <img src="img/insta.svg" alt="instagram-icon">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

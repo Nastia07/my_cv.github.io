@@ -196,7 +196,7 @@ header>nav {
   display: flex;
   align-items: center;
   column-gap: 40px;
-  margin: 0 auto;
+  margin: 15px auto;
   width: 70vw;
 }
 
